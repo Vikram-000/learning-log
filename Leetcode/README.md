@@ -65,15 +65,15 @@ Use a hash map to store previously seen numbers and their indices.
 
 ### Easy
 
-* [ ] Completed
+* [ 1 ] Completed
 
 ### Medium
 
-* [ ] Completed
+* [ 0 ] Completed
 
 ### Hard
 
-* [ ] Completed
+* [ 0 ] Completed
 
 ## Notes
 
