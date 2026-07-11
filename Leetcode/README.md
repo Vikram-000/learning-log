@@ -38,28 +38,6 @@ Example:
 0704_Binary_Search.py
 ```
 
-## Solution Format
-
-Each solution should include:
-
-* Problem number and title
-* Time complexity
-* Space complexity
-* Any important observations or approach used
-
-Example:
-
-```python
-"""
-Problem: 1. Two Sum
-
-Time Complexity: O(n)
-Space Complexity: O(n)
-
-Approach:
-Use a hash map to store previously seen numbers and their indices.
-"""
-```
 
 ## Progress
 
