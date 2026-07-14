@@ -14,10 +14,10 @@ class Solution(object):
             digit1 = 0
             digit2 = 0
 
-            if l1:
+            if l1 is not None:
                 digit1 = l1.val
                 l1 = l1.next
-            if l2:
+            if l2 is not None:
                 digit2 = l2.val
                 l2 = l2.next
 
