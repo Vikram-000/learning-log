@@ -1,19 +1,18 @@
 class Solution(object):
+    
     def isPalindrome(self, x):
-        
-        x = str(x)
+                    
+        if x < 0 or (x % 10 == 0 and x != 0):
+            return False
 
-        left = 0
-        right = len(x) - 1
+        r = 0
 
-        while left < right:
+        while x > r:
+            digit = x%10
+            x = x // 10
+            r = r * 10 + digit
 
-            if x[left] != x[right]:
-                return False
-            
-            left+=1
-            right-=1
-        
-        return True
-            
-      
+        return x == r or x == r // 10
+
+x = Solution()
+print(x.isPalindrome(12321))
