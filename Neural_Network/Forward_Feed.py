@@ -32,7 +32,7 @@ class NeuralNetwork:
         dZ2 = self.A2 - y
         db2 = (1 / m) * np.sum(dZ2, axis=0, keepdims=True)
         
-        dA1 = np.dot(dZ2, self.W1.T)
+        dA1 = np.dot(dZ2, self.W2.T)
         
         dW2 =  (1/m) * np.dot(self.W2.T)
 
