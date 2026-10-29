@@ -34,7 +34,7 @@ class NeuralNetwork:
         
         dA1 = np.dot(dZ2, self.W2.T)
         
-        dW2 =  (1/m) * np.dot(self.W2.T)
+        dW2 =  (1/m) * np.dot(self.W2.T, dZ2)
 
         dZ1 = dA1 * self.relu_derivative(self.Z1)
         dW1 = (1 / m) * np.dot(X.T, dZ1)
