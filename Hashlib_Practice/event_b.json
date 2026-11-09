@@ -1,0 +1,10 @@
+{
+    "metadata": {
+        "worker": "worker-01",
+        "duration": 25
+    },
+    "execution_id": "xyz-789",
+    "status": "success",
+    "timestamp": "2026-11-09T10:05:00Z",
+    "event": "execution_completed"
+}
