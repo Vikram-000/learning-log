@@ -1,1 +1,2 @@
 Hello, I am learning Hashlib
+This is my first time learning Hashlib
