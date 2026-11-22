@@ -1,0 +1,7 @@
+{
+  "event_id": "evt_001",
+  "event_type": "task_started",
+  "task_id": "task_123",
+  "status": "running",
+  "retry_count": 0
+}
